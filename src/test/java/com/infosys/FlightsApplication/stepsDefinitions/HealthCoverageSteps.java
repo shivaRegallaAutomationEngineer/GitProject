@@ -57,7 +57,7 @@ public class HealthCoverageSteps extends PageInitializer  {
 
 	@When("^User Click geta Qutoe$")
 	public void user_Click_geta_Qutoe() throws Throwable {
-		
+		System.out.println("implmented new changes here");
 	}
 
 	@When("^User enter zipcode$")
