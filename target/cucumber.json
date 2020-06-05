@@ -1,0 +1,148 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User able to buy a healthe Coverage",
+        "description": "",
+        "id": "health-coverage;user-able-to-buy-a-healthe-coverage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16095114800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigative to the application",
+            "match": {
+              "location": "HealthCoverageSteps.user_navigative_to_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 185206300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should HomePage",
+            "match": {
+              "location": "HealthCoverageSteps.user_should_HomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4066286800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click ShopPlan",
+            "match": {
+              "location": "HealthCoverageSteps.user_click_ShopPlan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164554500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User scroll down",
+            "match": {
+              "location": "HealthCoverageSteps.user_scroll_down()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 340837200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on individual and family",
+            "match": {
+              "location": "HealthCoverageSteps.user_click_on_individual_and_family()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8138272600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click learn more",
+            "match": {
+              "location": "HealthCoverageSteps.user_click_learn_more()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5497912300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click view ours plan",
+            "match": {
+              "location": "HealthCoverageSteps.user_click_view_ours_plan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Click geta Qutoe",
+            "match": {
+              "location": "HealthCoverageSteps.user_Click_geta_Qutoe()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5421409300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enter zipcode",
+            "match": {
+              "location": "HealthCoverageSteps.user_enter_zipcode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5195758700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User select country",
+            "match": {
+              "location": "HealthCoverageSteps.user_select_country()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Health Coverage",
+    "description": "",
+    "id": "health-coverage",
+    "keyword": "Feature",
+    "uri": "./Features/sprint2.feature"
+  }
+]
